@@ -161,6 +161,28 @@ body {
     font-size: 0.85rem;
 }
 
+/* About component */
+.About {
+    margin-top: 2rem;
+}
+
+.About-col{
+    margin: 0 auto;
+}
+
+.About-tech{
+    margin-bottom: 1rem;
+}
+
+.About-section{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.About-icon{
+    margin-right: 1rem;
+}
+
 /* Toggle Switch Component */
 .switch {
     position: relative;
