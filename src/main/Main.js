@@ -5,6 +5,8 @@ import Header from '../component/Header'
 import Contact from './Contact'
 import Project from './Project'
 import Education from './Education'
+import Leadership from './Leadership'
+import Achievement from './Achievement'
 
 import header_data from '../data/header'
 
@@ -27,9 +29,11 @@ export default function Main() {
             </Route>
             <Route path="/leadership">
                 <Header data={header_data["leadership"]} />
+                <Leadership />
             </Route>
             <Route path="/achievements">
                 <Header data={header_data["achievements"]} />
+                <Achievement />
             </Route>
             <Route path="/contacts">
                 <Header data={header_data["contacts"]} />

@@ -23,7 +23,7 @@ export default function EducationSingle(props) {
                     {course_list}
                 </div>
             </div>
-            <div className="col-12 col-md-6 col-ls-6 col-xl-6 Education-img-container">
+            <div className="col-md-6 col-ls-6 col-xl-6 Education-img-container">
                 <img src={logo} alt="" className="EducationSingle-img"></img>
             </div>
 

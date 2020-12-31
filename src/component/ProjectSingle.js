@@ -13,7 +13,7 @@ export default function ProjectSingle(props) {
                 <div className="ProjectSingle-name">
                     <a href={github} target="_blank" rel="noreferrer">{name}</a>
                     <span className="ProjectSingle-subname">
-                        {` ${company} - ${date}`}
+                        {` ${company} | ${date}`}
                     </span>
                 </div>
                 <div className="ProjectSingle-text">
