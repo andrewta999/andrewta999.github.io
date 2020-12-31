@@ -12,7 +12,7 @@ import Main from './main/Main'
 function App() {
     return (
         <Router>
-            <div className="App-Light" id="App">
+            <div className="App Light" id="App">
                 <div className="container-fluid">
                     <div className="row">
 
