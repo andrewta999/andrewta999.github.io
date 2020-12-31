@@ -7,6 +7,8 @@ import Project from './Project'
 import Education from './Education'
 import Leadership from './Leadership'
 import Achievement from './Achievement'
+import Work from './Work'
+import About from './About'
 
 import header_data from '../data/header'
 
@@ -19,9 +21,11 @@ export default function Main() {
             </Route>
             <Route path="/about">
                 <Header data={header_data["about"]} />
+                <About />
             </Route>
             <Route path="/work">
                 <Header data={header_data["work"]} />
+                <Work />
             </Route>
             <Route path="/education">
                 <Header data={header_data["education"]} />
