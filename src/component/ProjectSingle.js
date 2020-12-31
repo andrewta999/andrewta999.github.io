@@ -1,6 +1,6 @@
 export default function ProjectSingle(props) {
     let { data, name } = props
-    let { date, text, image, tech, company } = data
+    let { date, text, image, tech, company, github} = data
 
     let tech_list = tech.map((name) => {
         return <span className="badge text-light ProjectSingle-badge" key={name}>{name}</span>
@@ -11,7 +11,7 @@ export default function ProjectSingle(props) {
 
             <div className="col-12 col-md-7 col-ls-7 col-xl-7">
                 <div className="ProjectSingle-name">
-                    {name}
+                    <a href={github} target="_blank" rel="noreferrer">{name}</a>
                     <span className="ProjectSingle-subname">
                         {` ${company} - ${date}`}
                     </span>
