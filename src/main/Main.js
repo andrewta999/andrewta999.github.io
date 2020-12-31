@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
 import Header from '../component/Header'
+import Contact from './Contact'
 
 import header_data from '../data/header'
 
@@ -28,6 +29,7 @@ export default function Main() {
             </Route>
             <Route path="/contacts">
                 <Header data={header_data["contacts"]} />
+                <Contact />
             </Route>
         </Switch>
     </div>
