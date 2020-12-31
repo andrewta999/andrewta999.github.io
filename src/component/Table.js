@@ -8,7 +8,13 @@ export default function Table(props) {
         </tr>
     })
 
-    return <table className="table table-bordered Light">
+    let darks = document.getElementsByClassName("Dark")
+    let class_name = ""
+    if (darks.length > 0){
+        class_name = " Dark"
+    }
+
+    return <table className={`table table-bordered Light${class_name}`}>
         <thead className="thead">
             <tr>
                 <th scope="col">Name</th>
