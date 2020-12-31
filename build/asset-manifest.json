@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.554dff54.chunk.css",
+    "main.js": "/static/js/main.2fa68594.chunk.js",
+    "main.js.map": "/static/js/main.2fa68594.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.ccd39b4a.chunk.js": "/static/js/2.ccd39b4a.chunk.js",
+    "static/js/2.ccd39b4a.chunk.js.map": "/static/js/2.ccd39b4a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.554dff54.chunk.css.map": "/static/css/main.554dff54.chunk.css.map",
+    "static/js/2.ccd39b4a.chunk.js.LICENSE.txt": "/static/js/2.ccd39b4a.chunk.js.LICENSE.txt",
+    "static/media/ciena.a65c775d.jpg": "/static/media/ciena.a65c775d.jpg",
+    "static/media/developer.c4922023.jpg": "/static/media/developer.c4922023.jpg",
+    "static/media/ipho.538eb7ec.jpg": "/static/media/ipho.538eb7ec.jpg",
+    "static/media/mcgill.1e84b5ee.png": "/static/media/mcgill.1e84b5ee.png",
+    "static/media/movie_recommender.3fcf3cb5.png": "/static/media/movie_recommender.3fcf3cb5.png",
+    "static/media/osa_app.c33205c7.png": "/static/media/osa_app.c33205c7.png",
+    "static/media/profile.92d35e25.jpg": "/static/media/profile.92d35e25.jpg",
+    "static/media/quoridor_app.4b1fa299.png": "/static/media/quoridor_app.4b1fa299.png",
+    "static/media/resume.7daa809b.pdf": "/static/media/resume.7daa809b.pdf",
+    "static/media/spacetime.83546750.png": "/static/media/spacetime.83546750.png",
+    "static/media/whatsnew365.9993af81.png": "/static/media/whatsnew365.9993af81.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd7dc15.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.ccd39b4a.chunk.js",
+    "static/css/main.554dff54.chunk.css",
+    "static/js/main.2fa68594.chunk.js"
+  ]
+}
