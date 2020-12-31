@@ -2,6 +2,13 @@ export default function LeadershipSingle(props) {
     let { data, name } = props
     let { location, date, text, logo} = data
 
+    let subname 
+    if(date){
+        subname = ` @${location} | ${date}`
+    }else{
+        subname = ` @${location}`
+    }
+
     return <div className="container">
         <div className="EducationSingle row">
 
@@ -9,7 +16,7 @@ export default function LeadershipSingle(props) {
                 <div className="EducationSingle-name">
                     {name}
                     <span className="EducationSingle-subname">
-                        {` @${location} | ${date}`}
+                        {subname}
                     </span>
                 </div>
                 <div className="EducationSingle-text">
