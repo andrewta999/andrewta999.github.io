@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 
 import Header from '../component/Header'
 import Contact from './Contact'
+import Project from './Project'
 
 import header_data from '../data/header'
 
@@ -11,6 +12,7 @@ export default function Main() {
         <Switch>
             <Route exact path={["/", "/projects"]}>
                 <Header data={header_data["projects"]} />
+                <Project />
             </Route>
             <Route path="/about">
                 <Header data={header_data["about"]} />
