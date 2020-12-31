@@ -1,10 +1,14 @@
+body {
+    height: 100%;
+}
+
 /* App component */
 .App {
     font-size: 16px;
     padding-top: 0.2rem;
     padding-left: 3rem;
     padding-right: 1rem;
-    height:100vh;
+    min-height: 100vh;
 }
 
 /* NavBar Intro section */
@@ -75,7 +79,6 @@
 .Main {
     margin-top: 0.7rem;
     margin-left: -2rem;
-    margin-right: 4rem;
 }
 
 /* Header component */
@@ -105,6 +108,53 @@
     color: #ffffff;
 }
 
+/* Project component */
+.Project {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 80vh;
+}
+
+.ProjectSingle {
+    margin-bottom: 1rem;
+    margin-right: 0.1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border: 0.1rem solid #e3e2e1;
+    border-radius: 0.5rem;
+}
+
+/* ProjectSingle component */
+.ProjectSingle-img{
+    width: 27rem;
+    height: 14rem;
+}
+
+.Project-img-container {
+    overflow: hidden;
+}
+
+.ProjectSingle-name{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.ProjectSingle-subname{
+    font-size: 1rem;
+    color: gray;
+    font-weight: normal;
+}
+
+.ProjectSingle-text{
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.ProjectSingle-badge{
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #0275d8;
+}
 
 /* Toggle Switch Component */
 .switch {
@@ -165,4 +215,25 @@ input:checked + .slider:before {
   
 .slider.round:before {
     border-radius: 50%;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 0.2rem;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0275d8; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0275d8;
 }
