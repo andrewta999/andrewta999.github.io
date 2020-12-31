@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom'
 import Header from '../component/Header'
 import Contact from './Contact'
 import Project from './Project'
+import Education from './Education'
 
 import header_data from '../data/header'
 
@@ -22,6 +23,7 @@ export default function Main() {
             </Route>
             <Route path="/education">
                 <Header data={header_data["education"]} />
+                <Education />
             </Route>
             <Route path="/leadership">
                 <Header data={header_data["leadership"]} />
