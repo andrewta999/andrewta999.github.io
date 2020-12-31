@@ -139,6 +139,10 @@ body {
     font-weight: bold;
 }
 
+.ProjectSingle-name a{
+    color: inherit;
+}
+
 .ProjectSingle-subname{
     font-size: 1rem;
     color: gray;
