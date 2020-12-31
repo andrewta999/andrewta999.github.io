@@ -108,14 +108,14 @@ body {
     color: #ffffff;
 }
 
-/* Project component */
-.Project {
+/* Project and Education components */
+.Project, .Education {
     overflow-y: auto;
     overflow-x: hidden;
     height: 80vh;
 }
 
-.ProjectSingle {
+.ProjectSingle, .EducationSingle {
     margin-bottom: 1rem;
     margin-right: 0.1rem;
     padding-top: 0.7rem;
@@ -125,16 +125,16 @@ body {
 }
 
 /* ProjectSingle component */
-.ProjectSingle-img{
+.ProjectSingle-img, .EducationSingle-img{
     width: 27rem;
     height: 14rem;
 }
 
-.Project-img-container {
+.Project-img-container, .Education-img-container{
     overflow: hidden;
 }
 
-.ProjectSingle-name{
+.ProjectSingle-name, .EducationSingle-name{
     font-size: 1.1rem;
     font-weight: bold;
 }
@@ -143,21 +143,22 @@ body {
     color: inherit;
 }
 
-.ProjectSingle-subname{
+.ProjectSingle-subname, .EducationSingle-subname{
     font-size: 1rem;
     color: gray;
     font-weight: normal;
 }
 
-.ProjectSingle-text{
+.ProjectSingle-text, .EducationSingle-text{
     margin-top: 0.4rem;
     margin-bottom: 0.5rem;
 }
 
-.ProjectSingle-badge{
+.ProjectSingle-badge, .EducationSingle-badge{
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     background-color: #0275d8;
+    font-size: 0.85rem;
 }
 
 /* Toggle Switch Component */
