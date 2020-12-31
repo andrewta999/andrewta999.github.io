@@ -12,8 +12,10 @@ export default class Header extends Component {
 
     toggle_switch = () => {
         let checked = this.state.checked
-        let app = document.getElementById("App")
-        app.classList.toggle("App-Dark")
+        let lights = document.getElementsByClassName("Light")
+        for (let ele of lights){
+            ele.classList.toggle("Dark")
+        }
         this.setState({
             checked: !checked
         })
