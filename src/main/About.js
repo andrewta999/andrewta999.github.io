@@ -8,15 +8,15 @@ export default function About() {
         let list_skill = skill.map(({ name, icon }) => {
             return (
                 <div key={name} className="About-tech">
-                    <span className="About-icon">{icon}</span>
-                    <span className="About-name">{name}</span>
+                    <span className="About-icon" key={`${name}-icon`}>{icon}</span>
+                    <span className="About-name" key={`${name}-name`}>{name}</span>
                 </div>
             );
         });
         return (
             <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 About-col" key={name} >
                 <div className="About-section">
-                    <span class="badge badge-primary">{name}</span>
+                    <span className="badge badge-primary">{name}</span>
                 </div>
                 {list_skill}
             </div>
