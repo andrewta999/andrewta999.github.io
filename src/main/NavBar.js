@@ -34,11 +34,11 @@ const social_data = {
 }
 
 const body_data = {
-    "Projects": {
-        "link": "/projects",
-    },
     "About Me": {
         "link": "/about",
+    },
+    "Projects": {
+        "link": "/projects",
     },
     "Work Experience": {
         "link": "/work",
@@ -66,7 +66,7 @@ export default class NavBar extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            nav_selected: "Projects"
+            nav_selected: "About Me"
         }
     }
 
