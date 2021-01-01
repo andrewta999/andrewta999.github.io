@@ -1,6 +1,7 @@
 import React from 'react'
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
+    HashRouter
 } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -11,7 +12,7 @@ import Main from './main/Main'
 
 function App() {
     return (
-        <Router>
+        <HashRouter>
             <div className="App Light" id="App">
                 <div className="container-fluid">
                     <div className="row">
@@ -27,7 +28,7 @@ function App() {
                     </div>
                 </div>
             </div>
-        </Router>
+        </HashRouter>
     )
 }
 
