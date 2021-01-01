@@ -15,13 +15,13 @@ import header_data from '../data/header'
 export default function Main() {
     return <div className="Main">
         <Switch>
-            <Route exact path={["/", "/projects"]}>
-                <Header data={header_data["projects"]} />
-                <Project />
-            </Route>
-            <Route path="/about">
+            <Route exact path={["/", "/about"]}>
                 <Header data={header_data["about"]} />
                 <About />
+            </Route>
+            <Route path="/projects">
+                <Header data={header_data["projects"]} />
+                <Project />
             </Route>
             <Route path="/work">
                 <Header data={header_data["work"]} />
