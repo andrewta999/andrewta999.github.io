@@ -5,8 +5,6 @@ export default class Header extends Component {
         super(props)
         this.state = {
             checked: false,
-            title: props.data.title,
-            body: props.data.body
         }
     }
 
@@ -22,7 +20,8 @@ export default class Header extends Component {
     }
 
     render() {
-        let { title, body, checked} = this.state 
+        let {checked} = this.state 
+        let {title, body} = this.props.data 
         return <div className="Header">
             <div className="Header-title">
                 {title}
