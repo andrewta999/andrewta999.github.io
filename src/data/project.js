@@ -37,7 +37,7 @@ let projects = {
         "image": Quoridor,
         "github": "https://github.com/McGill-ECSE223-Fall2019/ecse223-project--group-10" 
     },
-    "Movie Recommander": {
+    "Movie Recommender": {
         "company": "@project",
         "date": "Spring 2019",
         "text": "I developed a web app that was integrated with a machine learning model to recommend movies to users based on their watched history. Users can provide the movies they have watched and liked and then get back a list of recommended movies. I used Python and Tensorflow to train the machine learning model and used JavaScript and React to build the web app.",
