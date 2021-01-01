@@ -91,10 +91,11 @@ body {
 .Header-title {
     font-weight: bold;
     font-size: 1.5rem;
+    padding-right: 2rem;
 }
 
 .Header-body {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /* Dark Light component */
@@ -164,6 +165,7 @@ body {
 /* About component */
 .About {
     margin-top: 2rem;
+    margin-left: -1rem;
 }
 
 .About-col{
