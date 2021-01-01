@@ -19,4 +19,5 @@ let education = {
     }
 }
 
+
 export default education

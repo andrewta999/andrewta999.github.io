@@ -5,13 +5,13 @@ let leadership = {
     "Mcgill Robotics": {
         "location": "Mcgill",
         "date": "2019-2020",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text": "I was working on a team at Mcgill Robotics that built a robot for water operataion tasks. This robot would then be used to compete in a robotic competition. I was playing and working around in Python to improve the codebase. I also taught some new members on how to use Python.",
         "logo": Robotics
     },
     "Mcgill AI": {
         "location": "Mcgill",
         "date": "2018-2019",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text": "I was a member at the Mcgill AI Society in the Winter of 2019. I got a chance to play around with some exciting machine learning and deep learning algorithms to solve problems in computer vision and natural language processing. I also built a movie recommander app that inspired some other students to take part in machine learning development",
         "logo": AI
     }
 }
