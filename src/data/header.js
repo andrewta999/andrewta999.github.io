@@ -1,19 +1,19 @@
 let header_data = {
     "projects": {
         "title": "Projects",
-        "body": "I have been building many applications and projects with popular tools such as Java, JavaScript, and Python. Feel free to checkout some of them below!"
+        "body": "I have been building many applications and projects with technologies such as JavaScript, TypeScript, Java, Golang, and Python. Feel free to checkout some of them below"
     },
     "work": {
         "title": "Work",
-        "body": "I am currently looking for a software internship in Summer 2021. Feel free to reach out to me!"
+        "body": "I am currently looking for a full-time software engineer role. Feel free to reach out to me"
     },
     "about": {
         "title": "Professional",
-        "body": "Hi, I am a junior software engineering undergraduate at Mcgill. Welcome to my website! Toggle the switch to have dark mode."
+        "body": "Welcome to my website"
     },
     "education": {
         "title": "Education",
-        "body": "I am currently studying at Mcgill University. Look below for more details."
+        "body": "I have a Master degree in Computer Science from USC and a Bachelor in Software Engineering from McGill"
     },
     "leadership": {
         "title": "Leadership",
@@ -21,7 +21,7 @@ let header_data = {
     },
     "achievements": {
         "title": "Achievement",
-        "body": "I am proud to have these amazing achievements."
+        "body": "I am proud to have these amazing achievements"
     },
     "contacts": {
         "title": "Contacts",

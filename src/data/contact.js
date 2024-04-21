@@ -1,10 +1,9 @@
 let contacts = {
-    "Email": "andrew.ta@mail.mcgill.ca", 
-    "Phone": "438-828-3417",
-    "Address": "Montreal, QC, Canada", 
+    "Email": "andrewta365@gmail.com", 
+    "Phone": "213-571-6359",
+    "Address": "Austin, Texas, United States", 
     "Linkedin": <a href="https://www.linkedin.com/in/andrewta99" target="_blank" rel="noreferrer">Linkedin</a>,
-    "Twitter": <a href="https://twitter.com/AndrewTa99" target="_blank" rel="noreferrer">Twitter</a>
-    
+    "Github": <a href="https://github.com/andrewta999" target="_blank" rel="noreferrer">Github</a>
 }
 
 export default contacts

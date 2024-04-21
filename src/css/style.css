@@ -18,10 +18,10 @@ body {
 }
 
 .NavBar-intro-img {
-    border-radius: 50%;
-    width: 11rem;
-    height: 11rem;
-    margin-left: 2.5rem;
+    border-radius: 10%;
+    width: 12rem;
+    height: 12rem;
+    margin-left: 1em;
     margin-bottom: 1rem;
 }
 
@@ -153,6 +153,7 @@ body {
 .ProjectSingle-text, .EducationSingle-text{
     margin-top: 0.4rem;
     margin-bottom: 0.5rem;
+    white-space: pre-line;
 }
 
 .ProjectSingle-badge, .EducationSingle-badge{
